@@ -11,7 +11,7 @@ function App() {
         <p>
           Số lượt like hiện tại là: {likes}
         </p>
-        <button onClick={() => setLike(99)}>Like</button>
+        <button onClick={() => setLike(like + 1)}>Like</button>
         <a
           className="App-link"
           href="https://reactjs.org"
